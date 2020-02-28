@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eca5c66e-72d3-4e24-9d76-48e51da632c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Home/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Home/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="React" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectId" id="1Og8fIdsf7CrLOsJsI6dXR590af" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Component/Team" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Component/Heading" />
+      <recent name="$PROJECT_DIR$/src/fonts/Montserrat" />
+      <recent name="$PROJECT_DIR$/src/fonts" />
+      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/aboutUsBg" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Component/Team" />
+      <recent name="$PROJECT_DIR$/src/Component/Usage" />
+      <recent name="$PROJECT_DIR$/src/Component/Requirements" />
+      <recent name="$PROJECT_DIR$/src/Component/Сooperate" />
+      <recent name="$PROJECT_DIR$/src/Component/Cover" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eca5c66e-72d3-4e24-9d76-48e51da632c1" name="Default Changelist" comment="" />
+      <created>1562317969340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562317969340</updated>
+      <workItem from="1562317973981" duration="5502000" />
+      <workItem from="1562334296423" duration="7659000" />
+      <workItem from="1562574076471" duration="1810000" />
+      <workItem from="1563178024188" duration="6824000" />
+      <workItem from="1563203555397" duration="1100000" />
+      <workItem from="1563267253267" duration="3107000" />
+      <workItem from="1563271754543" duration="10606000" />
+      <workItem from="1563355248000" duration="12598000" />
+      <workItem from="1563433359039" duration="10222000" />
+      <workItem from="1563448210434" duration="4778000" />
+      <workItem from="1563531023722" duration="27000" />
+      <workItem from="1563543255174" duration="4341000" />
+      <workItem from="1563778570186" duration="9610000" />
+      <workItem from="1563793779779" duration="9996000" />
+      <workItem from="1563884374741" duration="7655000" />
+      <workItem from="1563952574211" duration="610000" />
+      <workItem from="1564041826127" duration="15892000" />
+      <workItem from="1564123785550" duration="18336000" />
+      <workItem from="1564387984334" duration="13939000" />
+      <workItem from="1564468258871" duration="81000" />
+      <workItem from="1564487623463" duration="8591000" />
+      <workItem from="1564562760131" duration="2484000" />
+      <workItem from="1564648623860" duration="1949000" />
+      <workItem from="1564727354894" duration="1484000" />
+      <workItem from="1565860204294" duration="15822000" />
+      <workItem from="1565947478076" duration="7985000" />
+      <workItem from="1566196436909" duration="614000" />
+      <workItem from="1569407426722" duration="10131000" />
+      <workItem from="1569421405609" duration="7863000" />
+      <workItem from="1569498442075" duration="7100000" />
+      <workItem from="1569512003729" duration="128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,99 @@
+.conditionsCard__header{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.conditions__card {
+    padding: 0.5rem;
+}
+
+.conditions__text{
+    opacity: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.87rem;
+    line-height: 140%;
+    transition: all .3s;
+}
+
+.slider__item.active .conditions__text{
+    opacity: 1;
+    transition: all .3s;
+}
+.slider__item.active .conditionsCard__header{
+    padding-bottom: 0.93rem;
+    margin-bottom: 0.93rem;
+}
+
+.slider__item.active .conditionsCard__header:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 5rem;
+    background: #00a7e1;
+}
+
+@media screen and (max-width: 768px){
+    .conditions__header {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 30px;
+        text-transform: initial;
+    }
+    [name="conditions"] .container {
+        /* margin: auto; */
+        margin-top: 0px;
+    } 
+    .conditionsCard__header {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+    }
+    [name="conditions"] .conditionsCard__header {
+        padding: 0 10px;
+        justify-content: center;
+    }
+    .conditions__text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 21px;
+        margin-bottom: 140px;
+        margin-bottom: 80px;
+        margin-bottom: 50px;
+    }
+    .slider__item.active .conditionsCard__header:after {
+        bottom: -9px;
+        right: 0;
+        margin: auto;
+        width: 60%;
+    }
+    .slider__item.active .conditionsCard__header {
+        padding-bottom: 0rem;
+        margin-bottom: 106px;
+        margin-bottom: 76px;
+
+    }
+    [name="conditions"] .slider__button {
+        position: relative;
+        bottom: 0;
+    }
+    .conditions__card .conditions__text {
+        padding: 0 51px;
+        padding: 0 0px;
+    }
+    [name="conditions"] .full-page__smooth, 
+    [name="conditions"] .full-page {
+        min-height: 680px !important;
+    }
+}

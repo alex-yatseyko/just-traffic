@@ -1,0 +1,115 @@
+.aboutus__text {
+    margin-top: 1.06rem;
+    max-width: 44rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2.25rem;
+}
+
+[name="about-us"] .heading {
+    text-transform: initial;
+}
+
+.aboutus__button{
+    margin-top: 3rem;
+}
+
+.aboutUsItem .subHeader {
+    font-weight: 800;
+}
+
+.aboutUsItem{
+    text-align: center;
+}
+.aboutUsItem .subHeader{
+    font-size: 2.4rem;
+    line-height: 2.7rem;
+    text-transform: uppercase;
+    margin: 5rem 0 4rem;
+    color: #fff;
+}
+
+.aboutUsItem__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutUsItem__list p{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    color: #F2F2F2;
+    margin: 30px 0;
+}
+
+.aboutUsItem__list > div.even {
+    min-width: 25%;
+}
+
+.aboutUsItem__list > div.one {
+    min-width: 33%;
+}
+
+@media screen and (max-width: 768px){
+    .aboutUsItem {
+        margin-top: 118px;
+        margin-top: 40px;
+    }
+    .aboutUsItem h2{
+        font-size: 25px;
+        line-height: 30px;
+        text-transform: initial;
+        font-weight: 800;
+        margin-bottom: 81px;
+        margin-bottom: 40px;
+    }
+    .aboutUsItem .subHeader {
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 18px;
+        margin-top: 81px;
+        margin-bottom: 71px;
+    }
+    .aboutUsItem .subHeader {
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+    .aboutUsItem__list {
+        flex-direction: column;
+    }
+    .aboutUsItem__list .even, .aboutUsItem__list .one  {
+        text-align: left;
+    }
+    .aboutUsItem__list .even p, .aboutUsItem__list .one p {
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        font-weight: 500;
+    }
+    .even .border-blue {
+        margin-bottom: 30px !important;
+        margin-top: 0 !important;
+    }
+    .one .border-blue {
+        margin-bottom: 25px !important;
+        margin-top: 0 !important;
+    }
+    .about-us .container {
+        margin-top: 20rem;
+    }
+    .one:last-child .border-blue {
+        margin-bottom: 0px !important;
+    }
+    [name="about-us"] .full-page__smooth, 
+    [name="about-us"] .full-page {
+        min-height: 660px !important;
+    }
+
+}

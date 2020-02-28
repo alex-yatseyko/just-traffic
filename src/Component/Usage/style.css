@@ -1,0 +1,58 @@
+.usage__header{
+    margin-bottom: 50px;
+}
+
+.usage__text{
+    margin: auto;
+    max-width: 91%;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.usage__text li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+.usage__text li:last-child {
+    margin-bottom: 0;
+}
+
+.usage__text li:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    display: block;
+    width: 10px;
+    height: 17px;
+    background: url("../../img/itemArrow.png") no-repeat;
+}
+.usage__header {
+    text-transform: inherit;
+}
+
+@media screen and (max-width: 768px){
+    [name="usage"] h2 {
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 30px;
+        text-transform: initial;
+    }
+    .usage__text li {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 21px;
+        margin-bottom: 32px;
+        margin-bottom: 20px;
+    }
+    .usage__text li:before {
+        top: 2px;
+    }
+    .usage__header {
+        margin-bottom: 30px;
+    }
+}

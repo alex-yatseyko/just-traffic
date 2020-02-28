@@ -1,0 +1,26 @@
+.cover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00A7E1;
+    z-index: 99;
+    opacity: 1;
+    transition: opacity 600ms, visibility 600ms;
+}
+
+.img_center {
+    position: absolute;
+    max-width: 80%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.cover.hide_cover {
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 600ms, visibility 600ms;
+}

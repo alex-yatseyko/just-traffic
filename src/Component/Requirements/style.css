@@ -1,0 +1,59 @@
+.requirementsList .requirementsList {
+    margin-bottom: 50px;
+}
+
+.requirements__header{
+    margin-bottom: 50px;
+    text-transform: initial;
+}
+
+.requirementsList .requirementsList:last-child {
+    margin-bottom: 0;
+}
+
+.requirementsList__header{
+    font-size: 2rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+}
+
+.requirementsList__text{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 768px){
+    [name="requirements"] .full-page {
+        background-position: 47% 0%;
+    }
+    .requirements__header {
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 30px;
+        text-transform: inherit;
+        margin-bottom: 93px;
+    }
+    .requirementsList__header {
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 6px;
+    }
+    .requirementsList__text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .requirementsList > div:nth-child(1) {
+        margin-bottom: 115px;
+        margin-bottom: 90px;
+    }
+    [name="requirements"] .full-page__smooth, 
+    [name="requirements"] .full-page {
+        min-height: 714px !important;
+    }
+
+}

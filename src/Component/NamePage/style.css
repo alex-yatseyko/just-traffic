@@ -1,0 +1,23 @@
+.name__page{
+    position: relative;
+    padding-left: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.name__page:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: #00a7e1;
+    width: 30px;
+    height: 3px;
+}

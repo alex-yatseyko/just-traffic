@@ -1,0 +1,55 @@
+.selected {
+    position: relative;
+}
+.selected .list {
+    background: #0c0c0c;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.selected .list .list-item {
+    cursor: pointer;
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.37rem;
+    color: #FFFFFF;
+    transition: color .3s;
+}
+
+.selected .list .list-item:hover {
+    color: #00a7e1;
+    transition: color .3s;
+}
+
+.selected .value{
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+    padding: 8px 0;
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.37rem;
+    color: #FFFFFF;
+
+}
+
+.selected .value.change{
+    border-color: #00a7e1;
+}
+
+.arrow-selected{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}

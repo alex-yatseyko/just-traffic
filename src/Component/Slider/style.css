@@ -1,0 +1,126 @@
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider__wrapper {
+    display: flex;
+    position: relative;
+    transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.slider__wrapper .slider__item {
+    cursor: pointer;
+    opacity: .5;
+    width: 100%;
+    flex-shrink: 0;
+    transform: scale(0.9);
+}
+
+.slider__item.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.slider__button > button {
+    margin: 1.3rem 1.25rem 0 0;
+    position: relative;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 4.3rem;
+    height: 4.3rem;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.slider__button > button:hover {
+    background: #ffff;
+    transition: background .3s;
+}
+
+.slider__prev:after,
+.slider__next:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9px;
+    height: 16px;
+    transform: translate(-50%, -50%);
+}
+
+.slider__prev:after {
+    background: url("../../img/left.png");
+}
+
+.slider__prev:hover:after {
+    background: url("../../img/left-active.png");
+}
+
+.slider__next:after {
+    background: url("../../img/right.png");
+}
+
+.slider__next:hover:after {
+    background: url("../../img/right-active.png");
+}
+
+.slider__page {
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.slider__percent {
+
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 7px;
+    height: 2px;
+    width: 100px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.slider__border{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #ffffff;
+    transition: all .3s;
+}
+
+@media screen and (max-width: 768px){
+    .slider__button  {
+        display: flex;
+        justify-content: space-between;
+    }
+    .headerCard .slider {
+        text-align: center;
+    }
+    .slider__percent {
+        flex-grow: 1;
+    }
+    .slider__page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 1 0;
+        max-width: 62%;
+        margin: auto;
+        position: relative;
+        top: 40px;
+        /* margin-top: 6rem;
+        margin-top: 77px; */
+    }
+    .slider__button .slider__next {
+        margin: 1.3rem 0 0 0;
+    }
+}

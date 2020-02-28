@@ -1,0 +1,31 @@
+.social {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 3%;
+    bottom: 3%;
+}
+
+.social a {
+    display: block;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    width: 19px;
+    height: 19px;
+    background: url("../../img/social.png") no-repeat;
+}
+
+.social a:hover {
+    opacity: .7;
+}
+
+a.social__facebook{
+    background-position: 0 0;
+}
+a.social__linkedin{
+    background-position: 0 -42px;
+}
+a.social__instagram{
+    background-position: 0 -83px;
+}
